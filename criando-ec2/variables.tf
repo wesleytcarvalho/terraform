@@ -30,7 +30,7 @@ variable "aws_tags" {
     Name       = "Ubuntu"
     Enviroment = "Dev"
     ManageBy   = "Terraform"
-    Owner      = "Wesley Carvalho"
+    Owner      = "Wesley"
     UpdateAt   = "2023-01-18"
   }
 }

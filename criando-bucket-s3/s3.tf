@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "my-teste-bucket" {
-  bucket = "my-bucket-uday1818"
+resource "aws_s3_bucket" "bucket" {
+  bucket = "nome-do-backuet-aqui"
   acl    = "private"
 
   tags = {
