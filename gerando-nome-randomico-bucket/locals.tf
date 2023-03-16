@@ -2,7 +2,7 @@ locals {
 
     communs_tags = {
         CreateBy = "Terraform"
-        Athor = "Wesley T. Carvalho"
+        Athor = "Wesley"
         Env = var.enviroment
     }
 }
