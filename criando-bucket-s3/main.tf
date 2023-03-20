@@ -1,5 +1,5 @@
-# Nao e uma boa praticar utlizar o access_key nem secret_key colocando abertamente aqui
-# no terra forma 
+### Não é uma boa prática utlizar o access_key nem secret_key colocando abertamente aqui
+### Sempre utlize profile para definir seus perfil de conta 
 
 provider "aws" {
   region  = "us-east-2"
