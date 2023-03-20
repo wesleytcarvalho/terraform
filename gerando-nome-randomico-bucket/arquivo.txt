@@ -1,0 +1,21 @@
+Strings and Templates
+String literals are the most complex kind of literal expression in Terraform, and also the most commonly used.
+
+Terraform supports both a quoted syntax and a "heredoc" syntax for strings. Both of these syntaxes support template sequences for interpolating values and manipulating text.
+
+Quoted Strings
+A quoted string is a series of characters delimited by straight double-quote characters (").
+
+"hello"
+Copy
+Escape Sequences
+In quoted strings, the backslash character serves as an escape sequence, with the following characters selecting the escape behavior:
+
+Sequence	Replacement
+\n	Newline
+\r	Carriage Return
+\t	Tab
+\"	Literal quote (without terminating the string)
+\\	Literal backslash
+\uNNNN	Unicode character from the basic multilingual plane (NNNN is four hex digits)
+\UNNNNNNNN	Unicode character from supplementary planes (NNNNNNNN is eight hex

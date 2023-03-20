@@ -18,3 +18,8 @@ terraform apply
 ### Depois siga todos os passos solicitados no terminal, lembre-se você 
 ### precisa ter em mão o AWS Access Key ID e o AWS Secret Access Key, 
 ### você pode gerar isso na sua console aws
+
+## Documentação
+```
+https://developer.hashicorp.com/terraform/language
+```
