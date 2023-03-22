@@ -5,5 +5,7 @@ Por padrão, o Terraform armazena o estado localmente em um arquivo chamado terr
 
 ### Antes de qualquer coisa voce precisa criar um bucket
 passo01 - executar o terraform do diretório s3
+
 passo02 - executar o terraform do ec2 para criar a máquina e o state
+
 passo03 - agora observe se criou o terraform.tfstate no bucket
